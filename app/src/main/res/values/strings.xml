@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wafarly</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">HOT</string>
+    <string name="title_notifications">QR</string>
+</resources>
