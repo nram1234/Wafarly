@@ -40,7 +40,9 @@ textView.setOnClickListener(new View.OnClickListener() {
     }
 
     public void registerNewUser(View view) {
-
+startActivity(new Intent(this,Register.class));
 
     }
+
+
 }

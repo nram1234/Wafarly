@@ -4,4 +4,9 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">HOT</string>
     <string name="title_notifications">QR</string>
+    <string-array name="gender">
+        <item>man</item>
+        <item>woman </item>
+    </string-array>
+
 </resources>

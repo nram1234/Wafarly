@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Activity.Register">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/heart" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+            <android.support.design.widget.TextInputEditText
+                android:hint="mobile number"
+                android:id="@+id/registerphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+            <android.support.design.widget.TextInputEditText
+                android:hint="Email"
+                android:id="@+id/registeremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+            <android.support.design.widget.TextInputEditText
+                android:hint=" First Name"
+                android:id="@+id/registername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/registerlastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" Last Name" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:text="Gender" />
+
+        <Spinner
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:spinnerMode="dropdown"
+            android:tag="gender" />
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="click enter AGE"
+            android:textColor="#005AFF"
+            android:textSize="24sp" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/household"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=" house hold"
+                android:inputType="number"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="register"
+            android:text="Register" />
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

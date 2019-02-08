@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -15,6 +16,7 @@ import android.widget.TextView;
 import com.example.android.wafarly.Adapter.AdsSlide;
 import com.example.android.wafarly.Adapter.RecyclerViewItem;
 import com.example.android.wafarly.DataType.GanralDataType;
+import com.example.android.wafarly.Fragment.QR;
 import com.example.android.wafarly.R;
 
 import java.util.ArrayList;
@@ -38,7 +40,9 @@ public class Home extends AppCompatActivity {
 
                     return true;
                 case R.id.navigation_dashboard:
-
+                    QR qr=new QR();
+                    FragmentManager fragmentManager=getSupportFragmentManager();
+                    fragmentManager.beginTransaction().replace(R.id.container,qr).commit();
                     return true;
                 case R.id.navigation_notifications:
 
