@@ -51,8 +51,6 @@ spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 });
 
 
-
-
     }
     public void setdat(String s){
 
