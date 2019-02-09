@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="points balance "
+            android:id="@+id/item1"
+            android:icon="@drawable/ok"/>
+        <item
+            android:title="history"
+            android:id="@+id/item2"
+            android:icon="@drawable/ok"/>
+        <item
+            android:title="settings"
+            android:id="@+id/item3"
+            android:icon="@drawable/ok"/>
+        <item
+            android:title="support "
+            android:id="@+id/item4"
+            android:icon="@drawable/ok"/>
+        <item
+            android:title="invite friends "
+            android:id="@+id/item5"
+            android:icon="@drawable/ok"/>
+    </group>
+
+
+    <item android:title="sub">
+        <menu>
+
+            <item android:title="mailll"
+                android:icon="@drawable/heart"
+                android:id="@+id/iii"/>
+            <item
+                android:title="44444"
+                android:id="@+id/i4"
+                android:icon="@drawable/ok"/>
+            <item
+                android:title="4444444444444"
+                android:id="@+id/ttt"
+                android:icon="@drawable/ok"/>
+        </menu>
+    </item>
+
+
+
+</menu>
